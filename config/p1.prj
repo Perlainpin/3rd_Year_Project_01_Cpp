@@ -1,0 +1,51 @@
+{
+    "name": "p1",
+    "folder": "p1/",
+    "vc_project_version": "17.0",
+    "root_namespace": "p1",
+    "windows_target_platform_version": "10.0",
+    "configuration": [
+        {
+            "additional_dependencies": "%(AdditionalDependencies)",
+            "additional_include_directories": "",
+            "additional_library_directories": "",
+            "character_set": "Unicode",
+            "conformance_mode": "true",
+            "generate_debug_information": "true",
+            "int_dir": "$(ProjectDir)Build\\$(Configuration)\\intermediate\\",
+            "language_standard": "stdcpp20",
+            "name": "Debug|x64",
+            "out_dir": "$(ProjectDir)Build\\$(Configuration)\\",
+            "platform_toolset": "v143",
+            "precompiled_header": "Use",
+            "precompiled_header_file": "pch.h",
+            "preprocessor_definitions": "_DEBUG;_CONSOLE;%(PreprocessorDefinitions)",
+            "sdl_check": "true",
+            "subsystem": "Windows",
+            "type": "Application",
+            "use_debug_libraries": "true",
+            "warning_level": "Level3"
+        },
+        {
+            "additional_dependencies": "%(AdditionalDependencies)",
+            "additional_include_directories": "",
+            "additional_library_directories": "",
+            "character_set": "Unicode",
+            "conformance_mode": "true",
+            "generate_debug_information": "false",
+            "int_dir": "$(ProjectDir)Build\\$(Configuration)\\intermediate\\",
+            "language_standard": "stdcpp20",
+            "name": "Release|x64",
+            "out_dir": "$(ProjectDir)Build\\$(Configuration)\\",
+            "platform_toolset": "v143",
+            "precompiled_header": "Use",
+            "precompiled_header_file": "pch.h",
+            "preprocessor_definitions": "NDEBUG;_CONSOLE;%(PreprocessorDefinitions)",
+            "sdl_check": "true",
+            "subsystem": "Windows",
+            "type": "Application",
+            "use_debug_libraries": "false",
+            "warning_level": "Level3"
+        }
+    ]
+}
